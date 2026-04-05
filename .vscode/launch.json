@@ -1,21 +1,34 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "WaterEnergyCalculator",
-            "request": "launch",
-            "mainClass": "WaterEnergyCalculator",
-            "projectName": "csd-402_1db6cb0a"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "NestedPattern",
+      "request": "launch",
+      "mainClass": "NestedPattern",
+      "projectName": "csd-402_1db6cb0a"
+    },
+    {
+      "type": "java",
+      "name": "NestedLoops",
+      "request": "launch",
+      "mainClass": "NestedLoops",
+      "projectName": "csd-402_1db6cb0a"
+    },
+    {
+      "type": "java",
+      "name": "rpsgame",
+      "request": "launch",
+      "mainClass": "Rpsgame",
+      "projectName": "csd-402_1db6cb0a",
+      "vmArgs": "--module-path \"C:\\javafx17\\lib\" --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+      "type": "java",
+      "name": "WaterEnergyCalculator",
+      "request": "launch",
+      "mainClass": "WaterEnergyCalculator",
+      "projectName": "csd-402_1db6cb0a"
+    }
+  ]
 }
