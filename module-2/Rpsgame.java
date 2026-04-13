@@ -98,7 +98,7 @@ public class Rpsgame extends Application {
             }
         });
 
-        // Main lauout that stacks everything vertically
+        // Main layout that stacks everything vertically
         VBox layout = new VBox(15);
         layout.setAlignment(Pos.CENTER);
         layout.setStyle("-fx-padding: 20;");
